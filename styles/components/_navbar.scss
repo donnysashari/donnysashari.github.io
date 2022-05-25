@@ -1,0 +1,41 @@
+.navbar {
+    .navbar-brand{
+        font-size: $heading-4-size;
+        font-weight: 500;
+        color: $black-color;
+
+        span {
+            color:  $red-color;
+        }
+    }
+
+    .navbar-nav{
+        .nav-item {
+            .nav-link {
+                color: $black-color; 
+                font-size: $body-3-size;
+                font-weight: 500;
+
+                &.active {
+                    font-weight: 700;
+                    font-style: bold;
+                    color: $red-color;
+                }
+            }
+            &:hover {
+                color: $red-color;
+                border-radius: 15px;
+                background-color: $soft-grey-color;
+            }
+        }
+        .sosmed{
+            width: 50px;
+            color: $red-color;
+            text-decoration: none;
+            padding-left: 30px;
+        }
+    }
+
+
+
+}

@@ -1,0 +1,223 @@
+.hero {
+    background-color: $white-color;
+
+    h1 {
+        font-size : $heading-1-size;
+        font-weight: 700;
+        color: $black-color;
+        letter-spacing: -0.03em;
+    }
+    h5{
+            font-style: normal;
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 40px;
+            color: $black-color;
+    }
+
+    p.detail { 
+        color:$black-color;
+        font-size:20; 
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        width: 550px;
+        height: 125px;}
+    span.name { 
+        color:$red-color;
+        font-weight:700;
+        font-style: normal;
+        font-size:20px}
+
+        .scroll-downs {
+            position: relative;
+            top: 10px;
+            right: 0;
+            bottom: 30px;
+            left: 0;
+            margin: 10px;
+            color: $red-color;
+            
+            width :100px;
+            height: 55px;
+            .mousey {
+                width: 3px;
+                padding: 10px 15px;
+                height: 35px;
+                border: 2px solid $red-color;
+                border-radius: 25px;
+                opacity: 0.75;
+                box-sizing: content-box;
+              }
+              .scroller {
+                width: 3px;
+                height: 10px;
+                border-radius: 25%;
+                background-color: $red-color;
+                animation-name: scroll;
+                animation-duration: 2.2s;
+                animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+                animation-iteration-count: infinite;
+              }
+              @keyframes scroll {
+                0% { opacity: 0; }
+                10% { transform: translateY(0); opacity: 1; }
+                100% { transform: translateY(15px); opacity: 0;}
+              }
+          }
+          
+    
+
+.project{
+    height: 1800px;
+    z-index: -1;
+    clip-path: polygon(
+        0 5%,
+        7% 0,
+        100% 0,
+        100% 10%,
+        100% 90%,
+        100% 100%,
+        10% 100%,
+        0% 100%,
+        0% 100%
+    );
+
+    background-color: $blue-color;
+    h2{
+        color: $white-color;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 72px;
+        /* or 150% */
+
+        text-align: center;
+        letter-spacing: -0.015em;
+    }
+    a{
+        text-decoration: none;
+        color: $white-color;
+    }
+    
+}
+.cta-banner{
+    padding-bottom: 100px;
+    margin-top: 100px;
+    z-index: 99;
+    width: 1100px;
+    height: 273px;
+    left: 120px;
+    top: 1572px;
+
+    background: linear-gradient(264.32deg, #FD9A36 0%, #DA2B21 53.12%);
+    border-radius: 10px;
+}
+
+
+.story{
+    height: 899px;
+    h1{
+        padding-bottom: 30px;
+        padding-top: 30px;
+        width: 400px;
+        font-size: 80px;
+    }
+    h2{
+        width: 750px;
+        height: 144px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 72px;
+        transform: translate(200px);
+        display: flex;
+        
+
+        text-align: center;
+        letter-spacing: -0.015em;
+
+        color: #000000;
+    }
+    p{
+        width: 590;
+        font-size: 20px;
+    }
+    }
+}
+
+.contact{
+    background-color: $orange-color;
+    height: 600px;
+    padding-top: 50px;
+    position:relative;
+    overflow:hidden;
+    clip-path: polygon(
+        0 0%,
+        0% 0,
+        95% 0,
+        100% 10%,
+        100% 90%,
+        100% 100%,
+        10% 100%,
+        0% 100%,
+        0% 100%
+    )
+}
+
+.footer{
+    background-color: $blue-color;
+    padding-bottom: 50px;
+
+    hr{
+        color: white;
+    }
+
+    .footer-tittle{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 10px;
+        /* or 31% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.015em;
+
+    }
+
+    .footer-list{
+        list-style: none;
+        padding: 0;
+
+        li{
+            padding: 0;
+            a{
+                color: $white-color;
+                text-decoration: none;
+                margin-bottom: 10px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 10px;
+                /* or 50% */
+
+                letter-spacing: -0.015em;
+            }
+        }
+    }
+    .social-media{
+        a{
+            color: $white-color;
+            text-decoration: none;
+            margin-bottom: 10px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 10px;
+            /* or 50% */
+
+            letter-spacing: -0.015em;
+        }
+    }
+}
