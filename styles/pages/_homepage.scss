@@ -1,5 +1,6 @@
 .hero {
     background-color: $white-color;
+    scroll-behavior: smooth;
 
     h1 {
         font-size : $heading-1-size;
@@ -69,7 +70,7 @@
     
 
 .project{
-    height: 1800px;
+    height: 1700px;
     z-index: -1;
     clip-path: polygon(
         0 5%,
@@ -84,6 +85,7 @@
     );
 
     background-color: $blue-color;
+
     h2{
         color: $white-color;
         font-style: normal;
@@ -101,14 +103,37 @@
     }
     
 }
+
+.card-div{
+    background-color: $blue-color;
+}
+.card-div-biru{
+    position: relative;
+    background-color: $blue-color;
+    align-items: center;
+    top: 0;
+}
+.card-div-putih {
+    position: relative;
+    align-items: center;
+    top: 0;
+    padding-left:130px;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    z-index: -1;
+}
+
+
 .cta-banner{
-    padding-bottom: 100px;
-    margin-top: 100px;
-    z-index: 99;
+    display: flex;
+    justify-content: space-between;
     width: 1100px;
-    height: 273px;
+    height: 170px;
     left: 120px;
-    top: 1572px;
+    top: 50px;
+    z-index: 10;
+
 
     background: linear-gradient(264.32deg, #FD9A36 0%, #DA2B21 53.12%);
     border-radius: 10px;
@@ -162,8 +187,13 @@
         10% 100%,
         0% 100%,
         0% 100%
-    )
+    );
+    .form-style{
+        padding-top: 30px;
+    }
 }
+
+
 
 .footer{
     background-color: $blue-color;
