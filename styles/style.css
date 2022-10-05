@@ -223,6 +223,7 @@ section .section-tittle {
 }
 
 .hero .project {
+  background-color: #123C69;
   height: 1700px;
   z-index: -1;
   -webkit-clip-path: polygon(0 5%, 7% 0, 100% 0, 100% 10%, 100% 90%, 100% 100%, 10% 100%, 0% 100%, 0% 100%);
